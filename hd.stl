@@ -1,0 +1,9 @@
+solid HalfDonut
+  facet normal -0.194944 0.980048 -0.0387767
+   outer loop
+    vertex 0.399344 0.46194 1.04409
+    vertex 0.5 0.5 1.5
+    vertex 0.57612 0.5 1.11732
+   endloop
+  endfacet
+endsolid HalfDonut

@@ -1,0 +1,33 @@
+Writing this to a file.
+
+NOTES:
+
+Floating value comparison:
+When the tolerance was 0.0001
+Vertices: 1550
+Faces: 3104
+
+When the tolerance was 0.00001
+Vertices: 1554
+Faces: 3104
+
+Actual number in STL File
+Vertices: 1554
+Faces: 3104
+
+Forward Declaration of Classes:
+Pointer(s) to an Instance(s) of Class Vertex in Class Edge.
+Pointer(s) to an Instance(s) of Class Edge in Class Vertex.
+SO thread: http://stackoverflow.com/questions/4300420/recursive-definition-in-cpp
+SO thread: http://stackoverflow.com/questions/3410637/mutually-recursive-classes
+
+DOCUMENTATION:
+
+List of classes
+- Object : stores data of the whole object picked up from STL file 
+- Vertex : contains X, Y, Z coordinates of the vertex amongst other information
+- Face : contains pointers to the 3 vertices that define the face amongst other information
+- Edge : contains pointers to amongst other information
+
+
+
